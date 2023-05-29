@@ -10,15 +10,15 @@ function Icons() {
     <div>
 
     
-<Box  bg='white' p='40px'>
+<Box m='20'as='section'  alignItems={['left','left','center']} >
      
-            <List>
+            <List >
 
-              <Stack direction='row' spacing='110px'  margin='auto' ml='180px'>
+              <Stack direction={['column','column','row']} spacing='10px'  margin='auto' >
 
-                    <ListItem fontSize='20px' fontWeight='700'><StarsIcon sx={{mb:'-6px',color:'lightGreen',ml:'-23px'}}/>30 days money back <br /> Guarantee</ListItem>
-                    <ListItem  fontSize='20px' fontWeight='700'><LocalActivityIcon  sx={{mb:'-6px',color:'#00e676',ml:'-23px'}}/>No setup fees 100% <br /> hassle-free</ListItem>
-                    <ListItem  fontSize='20px' fontWeight='700'><AdsClickIcon  sx={{mb:'-6px',color:'orange',ml:'-23px'}}/>No monthly subscription Pay <br /> once and for all</ListItem>
+                    <ListItem  fontSize='20px' fontWeight='700'><StarsIcon sx={{mb:'-6px',color:'lightGreen'}}/>30 days money back Guarantee</ListItem>
+                    <ListItem  fontSize='20px' fontWeight='700'><LocalActivityIcon  sx={{mb:'-6px',color:'#00e676'}}/>No setup fees 100% hassle-free</ListItem>
+                    <ListItem  fontSize='20px' fontWeight='700'><AdsClickIcon  sx={{mb:'-6px',color:'orange'}}/>No monthly subscription Pay once and for all</ListItem>
               </Stack>
             </List>
 

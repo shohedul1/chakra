@@ -8,14 +8,15 @@ function Pricing() {
   return (
     <div>
         <Box 
-        maxW='994px' 
+        as='section'
+        maxW={['400','600','994']}
         margin='auto' 
-        mt='-256px'
-        borderRadius='12px' 
+        mt='-64'
+        borderRadius='xl' 
         overflow='hidden'
         boxShadow=' 2px 2px 2px 1px rgba(0, 0, 0, 0.2);'>
-          <Flex>
-            <Box p='60px' align='center' bg='#e8eaf6'>
+          <Flex direction={['column','column','row']}>
+            <Box p='60px' align='center' bg='#e8eaf6' >
                 <Text fontSize='24px' fontWeight='800'>
                     Premium Pro
                 </Text>
