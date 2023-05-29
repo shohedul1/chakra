@@ -2,6 +2,7 @@ import React from 'react'
 import { Box,Button,Flex,Heading,Text,ListItem,List } from '@chakra-ui/react'
 import AccessTimeFilledIcon from '@mui/icons-material/AccessTimeFilled';
 import Icons from '../icon/Icons';
+import Login from '../Login/Login';
 
 
 function Pricing() {
@@ -43,6 +44,8 @@ function Pricing() {
           </Flex>
         </Box>
         <Icons/>
+       
+       
     </div>
   )
 }
